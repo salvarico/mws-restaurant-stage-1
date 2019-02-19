@@ -47,7 +47,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #maincontent {
   background-color: #f3f3f3;
   /* min-height: 100%; */
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
 }
 #footer {
   background-color: #444;
@@ -120,7 +120,7 @@ nav h1 a {
   height: 100%;
   background-color: #3397DB;
   align-items: center;
-  padding: 10px 0;
+  padding: 2vh 0;
 }
 .filter-options h2 {
   color: white;
@@ -220,6 +220,9 @@ nav h1 a {
   bottom: 0;
   /* position: absolute; */
   width: 45%;
+}
+.inside #maincontent {
+  margin-top: 10vh;
 }
 #restaurant-name {
   color: #f18200;
